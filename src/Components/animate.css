@@ -1,0 +1,38 @@
+@keyframes slideInLeft {
+    0% {
+      /* transform: translateX(-100%); */
+      opacity: 0;
+    }
+    100% {
+      /* transform: translateX(0); */
+      opacity: 100;
+    }
+  }
+  @keyframes Slidetop {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 100;
+    }
+  }
+
+
+  #load{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+
+  }
+
+  #load2{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: Slidetop;
+  }
